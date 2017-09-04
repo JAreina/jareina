@@ -11,7 +11,7 @@ export class AppComponent {
   title:string = 'JAreina';
  
 
-  constructor(private bcrc : BackgroundColorRandomComponent){
+  constructor(public bcrc : BackgroundColorRandomComponent){
 
               
            
