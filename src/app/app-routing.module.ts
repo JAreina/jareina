@@ -5,7 +5,11 @@ import { CvComponent } from "./components/cv/cv.component";
 import { HomeComponent } from "./components/home/home.component";
 
 const routes: Routes = [
-  { path: '**', pathMatch: 'full', redirectTo: 'home' },
+  {
+    path:'',
+    redirectTo:'home',
+    pathMatch:'full'
+  },
   {
     path: 'home',
     component: HomeComponent,
@@ -24,7 +28,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes,{useHash:true})],
+  imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
