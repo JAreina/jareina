@@ -1,0 +1,13 @@
+img{
+    width: 5%;
+}
+
+iframe{
+    width:100%;
+    height: 700px;
+    border:none;
+
+}
+button{
+    margin-left: 50px;
+}

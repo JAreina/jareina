@@ -10,6 +10,7 @@ import { MenuComponent } from './components/menu/menu.component';
 import { CvComponent } from './components/cv/cv.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { HomeComponent } from './components/home/home.component';
+import { NasaComponent } from './components/proyectos/nasa/nasa.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { HomeComponent } from './components/home/home.component';
     CvComponent,
     ProyectosComponent,
     HomeComponent,
+    NasaComponent,
     
   ],
   imports: [

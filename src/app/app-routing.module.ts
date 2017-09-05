@@ -22,6 +22,11 @@ const routes: Routes = [
    
   },
   {
+    path: 'proyectos/nasa',
+    component: ProyectosComponent,
+   
+  },
+  {
     path:'',
     component: HomeComponent,
   },

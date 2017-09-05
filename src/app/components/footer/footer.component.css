@@ -11,6 +11,9 @@ footer{
 i,a{
     color:white;
 }
+a:hover i{
+    color:#B9B9C3;
+}
 .jareina p{
     position: absolute;
     top: 70px;
