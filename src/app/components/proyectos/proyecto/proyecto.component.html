@@ -1,0 +1,40 @@
+<div class="container-fluid"
+
+*ngIf="datos.length>0">
+
+  <div class="row" *ngFor="let dato of datos">
+
+      
+      <div class="col-md-6 col-xs-12 titulo">
+        <h2><img [src]="logo.logo" 
+          class="img-responsive" alt="logo angular">
+           {{dato.nombreProyecto}}</h2>
+        
+      </div>
+      <div class="col-md-6 col-xs-12">
+        <div class="well">
+        {{dato.descripcionProyecto}}
+       
+        </div>
+        <a class="btn btn-info" 
+        [href]="dato.urlProyecto" 
+        target="_blank">Código</a> 
+      </div>
+      <div class="col-md-12 col-xs-12">
+        
+          
+            <iframe [src]="dato.pageProyecto" class="animated fadeIn">
+              <p>Your browser does not support iframes.</p>
+            </iframe>
+          
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+
+img{
+    width: 5%;
+}
+
+iframe{
+    width:100%;
+    height: 700px;
+    border:none;
+    margin-top:20px;
+
+}
+a{
+    margin: 10px;
+    
+}
+
+.well{
+    border:none;
+}
+.well,.titulo{
+    padding:12px;
+}
+.well,a.btn.btn-info,.titulo{
+    background-color: rgba(242, 230, 206, 0.17);
+    color:#07075D;
+  
+}
+a.btn.btn-info{
+    border:2px dotted grey;
+}
+a.btn.btn-info:hover{
+    border:2px solid orange;
+    background-color:tomato;
+    color:white;
+}
+
+
+@media (max-width: 420px) { 
+    img{
+        width:10%;
+    }
+ }
+    

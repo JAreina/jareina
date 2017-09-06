@@ -1,4 +1,4 @@
-<div class=" col-md-4 col-lg-4 col-lg-offset-2 col-xs-5 "
+<div class=" col-md-6 col-lg-6 col-lg-offset-2 col-xs-6 "
  
 >
   
@@ -18,9 +18,9 @@
                           <nav  class="menuNavegacion {{menu}}"
                           >
                               <ul>
-                                <li> <a routerLink="/home"><i class="fa fa-home fa-1x"></i> Home</a> </li>
-                                  <li> <a routerLink="/cv"><i class="fa fa-graduation-cap fa-1x"></i> CV</a> </li>
-                                  <li><a routerLink="/proyectos" ><i class="fa fa-flag fa-1x"></i> Proyectos</a></li>
+                                <li> <a routerLink="/home" (click)="ocultarMenu()"><i class="fa fa-home fa-1x"></i> Home</a> </li>
+                                  <li> <a routerLink="/cv" (click)="ocultarMenu()"><i class="fa fa-graduation-cap fa-1x"></i> CV</a> </li>
+                                  <li><a routerLink="/proyectos" (click)="ocultarMenu()"><i class="fa fa-flag fa-1x"></i> Proyectos</a></li>
                               </ul>
                           </nav>
                               </div>
