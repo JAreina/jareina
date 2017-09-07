@@ -11,6 +11,9 @@ import { CvComponent } from './components/cv/cv.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { HomeComponent } from './components/home/home.component';
 import { ProyectoComponent } from './components/proyectos/proyecto/proyecto.component';
+import { GoogleAnalyticsService } from "./service/google-analytics.service";
+
+
 
 @NgModule({
   declarations: [
@@ -28,7 +31,7 @@ import { ProyectoComponent } from './components/proyectos/proyecto/proyecto.comp
     CommonModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [GoogleAnalyticsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
