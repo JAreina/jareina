@@ -25,9 +25,16 @@ export class AppComponent {
   seguridadUrl(){
     for (let i =0 ; i<this.proyecto.datos.length;i++){
      // console.log(this.proyecto.datos[i].pageProyecto)
-      this.proyecto.urlPage=this.satinizer.bypassSecurityTrustResourceUrl( this.proyecto.datos[i].pageProyecto);
- 
-      this.proyecto.datos[i].pageProyecto = this.proyecto.urlPage;
+
+
+      if( this.proyecto.datos[i].pageProyecto){
+             this.proyecto.urlPage=this.satinizer.bypassSecurityTrustResourceUrl( this.proyecto.datos[i].pageProyecto);
+             this.proyecto.datos[i].pageProyecto = this.proyecto.urlPage;
+      }
+      if( this.proyecto.datos[i].urlVideo){
+        this.proyecto.urlPage=this.satinizer.bypassSecurityTrustResourceUrl( this.proyecto.datos[i].urlVideo);
+        this.proyecto.datos[i].urlVideo = this.proyecto.urlPage;
+ }
       //console.log(this.proyecto.urlPage)
     
     }

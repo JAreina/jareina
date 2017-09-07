@@ -20,13 +20,16 @@
         [href]="dato.urlProyecto" 
         target="_blank">Código</a> 
       </div>
-      <div class="col-md-12 col-xs-12">
+      <div class="col-md-12 col-xs-12 marco">
         
           
-            <iframe [src]="dato.pageProyecto" class="animated fadeIn">
+            <iframe *ngIf="dato.pageProyecto" [src]="dato.pageProyecto" class="animated fadeIn">
               <p>Your browser does not support iframes.</p>
             </iframe>
           
+            <iframe *ngIf="dato.urlVideo" width="560" height="315"
+             [src]="dato.urlVideo" 
+             frameborder="0" allowfullscreen></iframe>
 
       </div>
   </div>
