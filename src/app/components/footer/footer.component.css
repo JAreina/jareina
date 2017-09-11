@@ -1,16 +1,16 @@
 .container-fluid{
     margin-bottom: 0;
-
+     overflow-x:hidden;
 }
 footer{
     background-color:rgba(3, 7, 6, 0.82);
     color:#fff;
-    height: 111px;
+    height: 181px;
     padding:20px;
     font-size: .7em;
 }
 .jareina{
-    font-size: .7em;
+    font-size: .9em;
    
 }
 i,a{
@@ -21,8 +21,9 @@ a:hover i{
 }
 .jareina p{
     position: absolute;
-    
-    right: 5px;
+top:10px;
+    left: 10px;
+    margin-bottom: 19px;
 }
 
 ul {
@@ -40,14 +41,47 @@ ul li a{
 ul li:hover a{
     color:rgba(73, 133, 115, 0.82);
 }
+@media(max-width: 768px)  { 
+        footer{
+            height: 170px;
+        }
+   
+        ul{
+            margin-left: 19%;
+        }
+}
+@media(max-width: 800px) { 
+    footer{
+        height: 170px;
+    }
+  
+    ul{
+        margin-left: 19%;
+    }
+}
 
 @media(max-width: 660px) { 
+    footer{
+        height: 160px;
+    }
     .jareina p{
     position: relative;
-    top: 50px;
-    right: 0px;
+    top: 100px;
+    left:40px;  display: none;
     }
+    .jareina span{
+      
+        position: relative;
+        top: 115px;
+        left: 18px;
+        margin-left: 50%;
+        margin-left: -5%;
+        }
     i{
-        font-size: .9em;
+     
+        text-align:center;
+    }
+    ul li a {
+        text-align: center;
     }
 }
