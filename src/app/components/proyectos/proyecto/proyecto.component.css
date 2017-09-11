@@ -1,5 +1,10 @@
 .container-fluid .row{
-    margin:50px 0;
+    margin:50px 0 0 0;
+    overflow-x:hidden;
+}
+.cabeceraProyecto{
+    background-color: rgba(10, 2, 2, 0.71);
+    color:white;
 }
 img{
     width: 5%;
@@ -7,29 +12,23 @@ img{
 .marco{
     margin-top:50px;
 }
-iframe{
+iframe.pagina{
     width:100%;
-    height: 700px;
+    height: 590px;
     border:none;
     margin-top:20px;
 
 }
+
 a{
     margin: 10px;
     
 }
 
-.well{
-    border:none;
-}
-.well,.titulo{
+.descripcion,.titulo{
     padding:12px;
 }
-.well,a.btn.btn-info,.titulo{
-    background-color: rgba(242, 230, 206, 0.17);
-    color:#07075D;
-  
-}
+
 a.btn.btn-info{
     border:2px dotted grey;
 }
@@ -39,10 +38,37 @@ a.btn.btn-info:hover{
     color:white;
 }
 
-
+.video-responsive {
+    
+        position: relative;
+      padding-bottom: 36.25%;/*  16/9 ratio */
+       margin-top: 49px;
+        padding-top: 70px; /* IE6 workaround*/
+        height: 0;
+        overflow: hidden;
+        }
+        
+        .video-responsive iframe,
+        .video-responsive object,
+        .video-responsive embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+   
+      
+        }
 @media (max-width: 420px) { 
     img{
         width:10%;
+    }
+    .video-responsive iframe,
+    .video-responsive object,
+    .video-responsive embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     }
  }
     

@@ -4,7 +4,7 @@
 
   <div class="row" *ngFor="let dato of datos">
 
-      
+      <div class="col-md-12 col-xs-12 cabeceraProyecto">
       <div class="col-md-6 col-xs-12 titulo">
         <h2><img [src]="logo.logo" 
           class="img-responsive" alt="logo angular">
@@ -12,7 +12,7 @@
         
       </div>
       <div class="col-md-6 col-xs-12">
-        <div class="well">
+        <div class="descripcion">
         {{dato.descripcionProyecto}}
        
         </div>
@@ -20,14 +20,20 @@
         [href]="dato.urlProyecto" 
         target="_blank">Código</a> 
       </div>
-      <div class="col-md-12 col-xs-12 marco">
+
+</div>
+
+
+      <div class="col-md-12 col-xs-12 marco" *ngIf="dato.tipoMedia === 'pagina'">
         
           
-            <iframe *ngIf="dato.pageProyecto" [src]="dato.pageProyecto" class="animated fadeIn">
+            <iframe *ngIf="dato.pageProyecto" [src]="dato.pageProyecto" class="pagina animated fadeIn">
               <p>Your browser does not support iframes.</p>
             </iframe>
-          
-            <iframe *ngIf="dato.urlVideo" width="560" height="315"
+          </div>
+
+          <div class="col-md-10 col-md-offset-3 col-xs-12 video-responsive" *ngIf="dato.tipoMedia === 'video'">  
+            <iframe *ngIf="dato.urlVideo" width="660" height="415"
              [src]="dato.urlVideo" 
              frameborder="0" allowfullscreen></iframe>
 

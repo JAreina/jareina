@@ -16,7 +16,7 @@ export class BackgroundColorRandomComponent {
             }
             //console.log(opacity)
             resultado= `rgba(${Math.floor(Math.random()*255)},
-                                        ${Math.floor(Math.random()*255)},
+                                      255,
                                         ${Math.floor(Math.random()*255)},
                                         ${opacity}  `;
                                  this.coloor={'color': resultado};

@@ -1,5 +1,5 @@
 export  const logoAngular={
-    "logo":"assets/angular.png" 
+    "logo":"assets/img/angular.png" 
 }
 
 
@@ -11,6 +11,7 @@ export const datosProyectos =[
     "descripcionProyecto":"  Ejemplo de servicio HTTP con conexión a la API de la NASA",
     "urlProyecto":"https://github.com/JAreina/Angular2-ServiceHTTP-API-NASA",
     "pageProyecto":"https://jareina.github.io/Angular2-ServiceHTTP-API-NASA/",
+    "tipoMedia":"pagina",
     "urlVideo":""
 },
 {
@@ -19,6 +20,7 @@ export const datosProyectos =[
     "descripcionProyecto":"  Ejemplo de aplicacion utilizando Auth0 y un servidor Express",
     "urlProyecto":"https://github.com/JAreina/app-FrutaFruit-Angular2-v2",
     "pageProyecto":"",
+    "tipoMedia":"video",
     "urlVideo":"https://www.youtube.com/embed/tjyIqIOivVM"
 },
 ];

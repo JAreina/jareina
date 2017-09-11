@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {logoAngular,datosProyectos} from '../datosProyectos'
+import {logoAngular,datosProyectos} from '../../../datos/datosProyectos'
 
 
 @Component({
