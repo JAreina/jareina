@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {logoAngular,datosProyectos} from '../../../datos/datosProyectos'
+import {datosProyectos} from '../../../datos/datosProyectos'
 
 
 @Component({
@@ -9,7 +9,7 @@ import {logoAngular,datosProyectos} from '../../../datos/datosProyectos'
   
 })
 export class ProyectoComponent  {
-logo :any= logoAngular;
+
 datos:any[]=datosProyectos;
 urlPage :any;
 

@@ -1,29 +1,35 @@
-<div class="container-fluid"
 
-*ngIf="datos.length>0">
-
-  <div class="row" *ngFor="let dato of datos">
-
-      <div class="col-md-12 col-xs-12 cabeceraProyecto">
-      <div class="col-md-6 col-xs-12 titulo">
-        <h2><img [src]="logo.logo" 
-          class="img-responsive" alt="logo angular">
-           {{dato.nombreProyecto}}</h2>
-        
-      </div>
-      <div class="col-md-6 col-xs-12">
-        <div class="descripcion">
-        {{dato.descripcionProyecto}}
+<div  *ngIf="datos.length>0" class="proyecto">
+  <div class="col-md-4 cajaProyecto " *ngFor="let dato of datos">
        
+          
+          
+              <h2 class="cabeceraProyecto"><img [src]="dato.logo" 
+                class="img-responsive" alt="logo">
+                 {{dato.nombreProyecto}}</h2>
+              
+          
+          
+              <div class="descripcion">
+              {{dato.descripcionProyecto}}
+             
+              </div>
+              <a class="btn btn-info" 
+              [href]="dato.urlProyecto" 
+              target="_blank">Código</a> 
+            
+              <a *ngIf="dato.pageProyecto"  class="btn btn-info" 
+              [href]="dato.pageProyecto" 
+              target="_blank">Ver página</a> 
+               
+              <a *ngIf="dato.urlVideo"  class="btn btn-info" 
+              [href]="dato.urlVideo" 
+              target="_blank">Ver vídeo</a> 
+
         </div>
-        <a class="btn btn-info" 
-        [href]="dato.urlProyecto" 
-        target="_blank">Código</a> 
       </div>
 
-</div>
-
-
+<!--  para proyecto detalle 
       <div class="col-md-12 col-xs-12 marco" *ngIf="dato.tipoMedia === 'pagina'">
         
           
@@ -37,11 +43,8 @@
              [src]="dato.urlVideo" 
              frameborder="0" allowfullscreen></iframe>
 
-      </div>
-  </div>
-</div>
-
-
+      </div>-->
+  
 
 
 

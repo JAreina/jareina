@@ -1,14 +1,45 @@
 .container-fluid{
-    margin-top:20px;
+
+   height: 550px;
 }
 .linkedin{
-    margin:200px;
-    border:.5px solid #7ABB7A;
-    border-radius: 5px 5px;
+    
+     height: inherit;
+     font-family: 'Anton', sans-serif;
 }
-i{
-    font-size: .8em;
+.in {
+    height: inherit;
+    background-color: #006f8a;
+   
+    
 }
-a{
-    text-align:center;
+.in a{
+    color:#ffbc49;
+    text-decoration: none;
+}
+.in a span:hover{
+    color:rgba(4, 103, 121, 0.6);
+}
+.in a span,.out span{
+       position: relative;
+       top:-1%;
+       font-size: 20em;
+       margin-bottom: 90px;
+}
+.out{
+    height: inherit;
+    background-color: #ffbc49;
+    color:#006f8a;
+    
+}
+
+
+
+@media (max-width:460px){
+    .container-fluid{
+        height: 275px;
+    }
+    .in a span,.out span{
+        font-size: 10em;
+    }
 }

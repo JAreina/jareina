@@ -1,13 +1,22 @@
 .container-fluid .row{
     margin:50px 0 0 0;
-    overflow-x:hidden;
+    box-sizing: content-box;
 }
-.cabeceraProyecto{
-    background-color: rgba(10, 2, 2, 0.71);
+
+.cajaProyecto:hover{
+
+    background-color: #006f8a;
+    
+}
+.cajaProyecto:hover div.descripcion{
     color:white;
 }
+.cabeceraProyecto{
+
+    color:#ffbc49;
+}
 img{
-    width: 5%;
+    width: 10%;
 }
 .marco{
     margin-top:50px;
@@ -30,11 +39,14 @@ a{
 }
 
 a.btn.btn-info{
-    border:2px dotted grey;
+    background-color:#006f8a;
+    border:2px dotted #ffbc49;
+    color:#fff;
+    padding:10px;
 }
 a.btn.btn-info:hover{
-    border:2px solid orange;
-    background-color:tomato;
+    border:2px solid #ffbc49;
+    background-color:#006f8a;
     color:white;
 }
 
