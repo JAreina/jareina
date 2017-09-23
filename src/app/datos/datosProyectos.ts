@@ -26,7 +26,7 @@ export const datosProyectos =[
     "id":3,
     "logo":"assets/img/js.png" ,
     "nombreProyecto":"Luz Visible",
-    "descripcionProyecto":" Mezcla de rojo,verde y azul consiguiendo luz blanca",
+    "descripcionProyecto":" Mezcla de rojo, verde y azul consiguiendo luz blanca",
     "urlProyecto":"https://github.com/JAreina/luzVisible",
     "pageProyecto":"https://jareina.github.io/luzVisible",
     "tipoMedia":"pagina",
@@ -42,6 +42,15 @@ export const datosProyectos =[
     "tipoMedia":"pagina",
     "urlVideo":""
 },
-
+{
+    "id":5,
+    "logo":"assets/img/angular.png" ,
+    "nombreProyecto":"Background-image Slider",
+    "descripcionProyecto":"Ejemplo de un simple slider, que utiliza setTimeout() para hacer cambios textos y fotografías",
+    "urlProyecto":"https://github.com/JAreina/background-image-slider",
+    "pageProyecto":"https://jareina.github.io/background-image-slider",
+    "tipoMedia":"pagina",
+    "urlVideo":""
+}
 ];
    

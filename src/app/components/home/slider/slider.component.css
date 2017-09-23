@@ -1,0 +1,22 @@
+
+
+.fondo{
+    width:100px;
+    height: 100px;
+    background-size: cover;
+    box-sizing: content-box;
+
+    cursor: pointer;
+    
+}
+.texto{
+    
+    margin-bottom: 23px;
+}
+@media (min-width:360px){
+  
+   h1{
+        font-size: 0.9em;
+        margin-bottom: 30px;
+    }
+   }

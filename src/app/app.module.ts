@@ -12,6 +12,7 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { HomeComponent } from './components/home/home.component';
 import { ProyectoComponent } from './components/proyectos/proyecto/proyecto.component';
 import { GoogleAnalyticsService } from "./service/google-analytics.service";
+import { SliderComponent } from "./components/home/slider/slider.component";
 
 
 
@@ -24,6 +25,7 @@ import { GoogleAnalyticsService } from "./service/google-analytics.service";
     ProyectosComponent,
     HomeComponent,
     ProyectoComponent,
+    SliderComponent
     
   ],
   imports: [
