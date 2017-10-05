@@ -5,7 +5,10 @@
 }
 .titulo{
     background-color:rgba(255, 255, 255, 0.77);
-     height: inherit;
+     
+}
+.slider{
+    height: 400px;
 }
 @media (max-width:360px){
      .titulo{
