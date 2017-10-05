@@ -13,10 +13,18 @@
     
     margin-bottom: 23px;
 }
+.conocimientos{
+    width: 100%;
+    height: 400px;
+    background-color: #ffbc49;
+}
 @media (min-width:360px){
   
    h1{
         font-size: 0.9em;
         margin-bottom: 30px;
+    }
+    .conocimientos{
+        height: 500px;
     }
    }

@@ -1,11 +1,11 @@
 .home{
-    background: url("../../../assets/img/PIA21628-1920x1200.jpg");
-    height:700px;
+    background:#fff;
+    height:600px;
     overflow-x: hidden;
 }
 .titulo{
     background-color:rgba(255, 255, 255, 0.77);
-
+     height: inherit;
 }
 @media (max-width:360px){
      .titulo{

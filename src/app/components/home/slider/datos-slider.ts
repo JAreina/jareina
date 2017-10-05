@@ -34,5 +34,17 @@ export const datosSlider =[
         "nombre":"TypeScript",
         "descripcion":["Mi experiencia empieza en Typescript en Abril de 2017, junto con Angular","Sabiendo Java es relativamente sencillo adaptarse a este lenguaje"],
         "urlLogo":"./assets/img/logo-ts.png"
+    },
+    {
+        "id":6,
+        "nombre":"Sql",
+        "descripcion":["Experiencia desde 2015,  en el lenguaje para el acceso a bases de datos relacionales."],
+        "urlLogo":"./assets/img/logo-sql.png"
+    },
+    {
+        "id":7,
+        "nombre":"Git",
+        "descripcion":["Manejo de git, software de control de versiones para los proyectos"],
+        "urlLogo":"./assets/img/logo-git.png"
     }
 ]

@@ -10,7 +10,7 @@ export class SliderComponent implements OnInit {
   url: string;
   fondo: string;
   datosSlider: any = datosSlider;
-  totalIds: number = 6;
+  totalIds: number = 8;
   idActual: number;
   finInterval: any;
   conocimientos: any[];
@@ -24,16 +24,26 @@ export class SliderComponent implements OnInit {
 
   slider() {
     this.finInterval = setInterval(() => {
+      
+      let num=0;
+
+      if(num ===this.idActual){
       this.idActual = Math.floor(Math.random() * this.totalIds);
-
-      this.url = datosSlider[this.idActual].urlLogo;
-
-      this.fondo = `url( ${this.url})`;
-
-      for (let i = 0; i < datosSlider.length; i++) {
-        this.conocimientos = [];
-        this.conocimientos.push(datosSlider[this.idActual]);
+       num = this.idActual;
+      }else{
+        this.idActual = Math.floor(Math.random() * this.totalIds);
       }
+      
+        this.url = datosSlider[this.idActual].urlLogo;
+        
+              this.fondo = `url( ${this.url})`;
+        
+              for (let i = 0; i < datosSlider.length; i++) {
+                this.conocimientos = [];
+                this.conocimientos.push(datosSlider[this.idActual]);
+              }
+     
+     
     }, 1200);
   }
 
