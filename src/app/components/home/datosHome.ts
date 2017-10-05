@@ -1,0 +1,4 @@
+export const cabeceraInicio = ["YA HAS ENCONTRADO","AL DESARROLLADOR WEB","QUE NECESITA TU PROYECTO"];
+
+
+

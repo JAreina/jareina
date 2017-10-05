@@ -20,6 +20,12 @@ h2{
     height: 400px;
     background-color: #ffbc49;
 }
+.tituloConocimiento{
+    padding:10px;
+}
+.diapositiva{
+    margin-top:30px;
+}
 @media (min-width:360px){
   
    h2{

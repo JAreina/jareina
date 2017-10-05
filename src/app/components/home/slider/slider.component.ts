@@ -44,7 +44,7 @@ export class SliderComponent implements OnInit {
               }
      
      
-    }, 1200);
+    }, 3000);
   }
 
   pararIntervalo() {

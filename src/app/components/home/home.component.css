@@ -1,11 +1,13 @@
 .home{
     background:#fff;
-    height:600px;
+    height:800px;
     overflow-x: hidden;
 }
 .titulo{
-    background-color:rgba(255, 255, 255, 0.77);
-     
+    background-color:#0A5C6E;
+     color:#FFFFFF;
+     font-weight: 400;
+     padding:10px;
 }
 .slider{
     height: 400px;
