@@ -2,13 +2,13 @@ export const datosSlider =[
     {
         "id":0,
         "nombre":"Angular",
-        "descripcion":["Experiencia desde Abril de 2017."," Creación de componentes,decoradores,data binding, enrutamiento ,services, módulos..."],
+        "descripcion":["Experiencia desde Abril de 2017.","Creación de componentes, decoradores,data binding, enrutamiento, services, módulos..."],
         "urlLogo":"./assets/img/logo-angular.png"
     },
     {
         "id":1,
         "nombre":"Java",
-        "descripcion":["Experiencia desde Octubre de 2015. Aprendí a programar con este lenguaje. ","Soy capaz de realizar aplicaciones de escritorio escritas en java, así como aplicaciones web"],
+        "descripcion":["Experiencia desde Octubre de 2015. Aprendí a programar con este lenguaje. ","Aplicaciones de escritorio, así como aplicaciones web"],
         "urlLogo":"./assets/img/logo-java.png"
     },
     {

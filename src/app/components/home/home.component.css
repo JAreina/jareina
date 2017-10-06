@@ -1,7 +1,8 @@
 .home{
     background:#fff;
-    height:800px;
+    height:610px;
     overflow-x: hidden;
+    box-sizing: content-box;
 }
 .titulo{
     background-color:#0A5C6E;
@@ -10,11 +11,14 @@
      padding:10px;
 }
 .slider{
-    height: 400px;
+    height: 500px;
 }
 @media (max-width:360px){
+      .home{
+          height: 800px;
+      }
      .titulo{
-         height: 600px;
+         height: 240px;
      }
    
     }
