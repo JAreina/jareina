@@ -1,6 +1,6 @@
 .home{
     background:#fff;
-    height:610px;
+    height:710px;
     overflow-x: hidden;
     box-sizing: content-box;
 }
@@ -11,7 +11,7 @@
      padding:10px;
 }
 .slider{
-    height: 500px;
+    height: 400px;
 }
 @media (max-width:360px){
       .home{

@@ -17,23 +17,23 @@ h2{
     margin-bottom: 23px;
 }
 .conocimientos{
-    height: 400px;
+    height: 500px;
     background-color: #ffbc49;
 }
 .tituloConocimiento{
     padding:10px;
 }
 .diapositiva{
-    margin-top:30px;
+    margin-top:15px;
 }
 @media (max-width:360px){
   
    h2{
         font-size: 1.2em;
-        margin-bottom: 30px;
+        margin-bottom: 15px;
         font-weight: bolder;
     }
     .conocimientos{
-        height: 620px;
+        height: 420px;
     }
    }
