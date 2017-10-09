@@ -44,12 +44,12 @@
   }
 
   .botonMenu{
- 
+    height: 12px;
     
   }
 .iconoMenu{
   color:rgba(0, 0, 0, 0.84);
-  font-size:1.5em; padding:0.33%;
+  font-size:1.5em; 
 }
 
 
