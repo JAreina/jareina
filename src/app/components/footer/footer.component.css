@@ -2,12 +2,23 @@
     margin-bottom: 0;
      overflow-x:hidden;
 }
+img{
+    width: 185px;
+    cursor: pointer;
+}
 footer{
     background-color:rgba(3, 7, 6, 0.82);
     color:#fff;
-    height: 181px;
-    padding:20px;
+    height: auto;
+ 
     font-size: .7em;
+}
+
+
+.centro,.izquierda,.derecha{
+    box-sizing: content-box;
+    padding:1%;
+    text-align: center;
 }
 .jareina{
     font-size: .9em;
@@ -19,23 +30,18 @@ i,a{
 a:hover i{
     color:#B9B9C3;
 }
-.jareina p{
-    position: absolute;
-top:10px;
-    left: 10px;
-    margin-bottom: 19px;
+.jareina {
+    background-color:rgb(3, 0, 0);
+    padding:2%;
 }
 
 ul {
     list-style: none;
 
 }
-ul li{
-    display: inline;
-   
-}
+
 ul li a{
-    display:block;
+    
     text-decoration: none;
 }
 ul li:hover a{
@@ -46,37 +52,22 @@ ul li:hover a{
             height: 170px;
         }
    
-        ul{
-            margin-left: 19%;
-        }
+   
 }
 @media(max-width: 800px) { 
     footer{
-        height: 170px;
+        height: 300px;
     }
   
-    ul{
-        margin-left: 19%;
-    }
+ 
 }
 
 @media(max-width: 660px) { 
     footer{
-        height: 160px;
+        height: 300px;
     }
-    .jareina p{
-    position: relative;
-    top: 100px;
-    left:40px;  display: none;
-    }
-    .jareina span{
-      
-        position: relative;
-        top: 115px;
-        left: 18px;
-        margin-left: 50%;
-        margin-left: -5%;
-        }
+  
+
     i{
      
         text-align:center;

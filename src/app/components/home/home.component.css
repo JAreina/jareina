@@ -15,10 +15,13 @@
 }
 @media (max-width:360px){
       .home{
-          height: 800px;
+          height: 600px;
       }
      .titulo{
          height: 240px;
      }
-   
+     .slider{
+        height: 400px;
     }
+    }
+

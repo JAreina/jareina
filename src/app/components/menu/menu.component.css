@@ -44,10 +44,20 @@
   }
 
   .botonMenu{
-    margin-top:10px;
-    font-size: 2em;
+  padding:0.33%;
+    
   }
 .iconoMenu{
-  color:rgba(237, 243, 242, 0.84);
+  color:rgba(0, 0, 0, 0.84);
   font-size:1.5em;
+}
+
+
+@media(min-width: 320px)  { 
+  .botonMenu{
+    padding:0.73%;
+      
+    }
+
+
 }

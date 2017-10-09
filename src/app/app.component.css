@@ -3,7 +3,7 @@ img{
     cursor:pointer;
 }
 .header{
-    background-color:rgba(22, 29, 25, 0.92);
+    background-color:rgba(236, 241, 238, 0.99);
     position: fixed;
     top:0;
     width:100%;
@@ -16,5 +16,5 @@ h1,h6{
     font-family: 'Volkhov', serif;
 }
 section{
-    margin-top:80px;
+    margin-top:47px;
 }
