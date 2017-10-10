@@ -1,14 +1,14 @@
 
   
-      <div class=" {{iconoMenu}}" (mouseenter)="mostrarMenu()">
+  
       
-            <div class="col-xs-3" 
-            >
-                          <button type="button" class="btn btn-link   botonMenu  col-xs-12 " (mouseenter)="mostrarMenu()">
-                               <span class="glyphicon col-xs-12 glyphicon-option-vertical  iconoMenu" aria-hidden="true"></span>
-                          </button>
-                          </div>
-      </div>
+        
+                            <i 
+                            (mouseenter)="mostrarMenu()"
+                            class="fa fa-bars fa-2x text-right col-xs-6 {{iconoMenu}}"></i>
+                    
+                  
+    
                        
                           <div class="row navegacion "
                            (mouseleave)="ocultarMenu()"
@@ -23,5 +23,5 @@
                               </ul>
                           </nav>
                               </div>
-                          </div>
+                        
      

@@ -10,9 +10,7 @@
      font-weight: 400;
      padding:10px;
 }
-.slider{
-    height: 400px;
-}
+
 @media (max-width:360px){
       .home{
           height: 600px;
@@ -20,8 +18,6 @@
      .titulo{
          height: 240px;
      }
-     .slider{
-        height: 400px;
-    }
+
     }
 

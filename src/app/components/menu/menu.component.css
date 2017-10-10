@@ -8,8 +8,8 @@
   .row.navegacion{
     width: 100%;
     position: absolute;
-    top:0;
-    left:0;
+    top:100%;
+    left:50%;
       z-index: 1000;
   }
   .menuNavegacion ul {
@@ -43,17 +43,33 @@
     
   }
 
-  .botonMenu{
-    margin-top:2px;
-    height: 52px;
-    font-size: 1em;
-    
-  }
-.iconoMenu{
-  margin-top:2px;
+
+i.fa.fa-bars{
+  margin-top:10px;
+
   color:rgba(0, 0, 0, 0.84);
   font-size:1.5em; 
+  
 }
 
 
+@media (max-width:360px) {
+  .row.navegacion{
+  
+    position: absolute;
+    top:0%;
+    left:0%;
+      
+  }
 
+}
+@media (max-width:682px) {
+  .row.navegacion{
+  
+    position: absolute;
+    top:0%;
+    left:0%;
+      
+  }
+
+}
