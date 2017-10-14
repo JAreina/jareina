@@ -49,7 +49,7 @@ i.fa.fa-bars{
 
   color:rgba(0, 0, 0, 0.84);
   font-size:1.5em; 
-  
+  text-align: right;
 }
 
 
@@ -61,7 +61,14 @@ i.fa.fa-bars{
     left:0%;
       
   }
-
+  i.fa.fa-bars{
+    
+    margin-top:10px;
+     
+    color:#006f8a;
+    font-size:1.5em; 
+    text-align: right;
+  }
 }
 @media (max-width:682px) {
   .row.navegacion{
