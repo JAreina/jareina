@@ -13,7 +13,8 @@ import { HomeComponent } from './components/home/home.component';
 import { ProyectoComponent } from './components/proyectos/proyecto/proyecto.component';
 import { GoogleAnalyticsService } from "./service/google-analytics.service";
 import { SliderComponent } from "./components/home/slider/slider.component";
-
+import { SliderProyectosComponent } from './components/slider-proyectos/slider-proyectos.component';
+import { ProyectosRealizadosComponent } from './components/proyectos-realizados/proyectos-realizados.component';
 
 
 @NgModule({
@@ -25,7 +26,9 @@ import { SliderComponent } from "./components/home/slider/slider.component";
     ProyectosComponent,
     HomeComponent,
     ProyectoComponent,
-    SliderComponent
+    SliderComponent,
+    SliderProyectosComponent,
+    ProyectosRealizadosComponent
     
   ],
   imports: [
