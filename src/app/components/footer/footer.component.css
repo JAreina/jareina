@@ -33,6 +33,7 @@ a:hover i{
 .jareina {
     background-color:rgba(192, 23, 23, 0.911);
     padding:2%;
+    color:#000;
 }
 
 ul {
@@ -44,6 +45,10 @@ ul li a{
     
     text-decoration: none;
 }
+
+.hecho{
+    width:1%;
+}
 ul li:hover a{
     color:rgba(73, 133, 115, 0.82);
 }
@@ -51,8 +56,13 @@ ul li:hover a{
         footer{
             height: 170px;
         }
-   
-   
+        .jareina {
+            background-color:rgba(192, 23, 23, 0.911);
+            padding:8%;
+        }
+        .hecho{
+            width:8%;
+        }
 }
 @media(max-width: 800px) { 
     footer{

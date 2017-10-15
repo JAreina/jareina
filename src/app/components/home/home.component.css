@@ -1,6 +1,6 @@
 .home{
     background:#fff;
-    height:710px;
+    
     overflow-x: hidden;
     box-sizing: content-box;
 }
@@ -9,14 +9,13 @@
      color:#FFFFFF;
      font-weight: 400;
      padding:10px;
+     font-family: 'Anton', sans-serif;
 }
 
 @media (max-width:360px){
-      .home{
-          height: 600px;
-      }
+     
      .titulo{
-         height: 240px;
+         height: 300px;
      }
 
     }

@@ -47,4 +47,6 @@ export const datosSlider =[
         "descripcion":["Manejo de git, software de control de versiones para los proyectos"],
         "urlLogo":"./assets/img/logo-git.png"
     }
-]
+];
+
+

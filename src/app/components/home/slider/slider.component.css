@@ -8,7 +8,7 @@ h2{
     height: 100px;
     background-size: cover;
     box-sizing: content-box;
-
+ margin-left: 21.2%;
     cursor: pointer;
     
 }
@@ -17,7 +17,7 @@ h2{
     margin-bottom: 23px;
 }
 .conocimientos{
-    height: 500px;
+    height: 400px;
     background-color: #ffbc49;
 }
 .tituloConocimiento{
@@ -32,6 +32,9 @@ h2{
         font-size: 1.2em;
         margin-bottom: 15px;
         font-weight: bolder;
+    }
+    .fondo{
+        margin-left: 25%;
     }
     .conocimientos{
         height: 500px;
