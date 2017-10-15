@@ -1,6 +1,6 @@
 .container-fluid{
 
-   height: 550px;
+   height: 640px;
 }
 .linkedin{
     
@@ -22,7 +22,7 @@
 }
 .out span{
        position: relative;
-       top:-1%;
+       top:7%;
        font-size: 20em;
        margin-bottom: 90px;
 }
@@ -50,7 +50,7 @@ p{
 
 @media (max-width:460px){
     .container-fluid{
-        height: 275px;
+        height: 375px;
     }
     .in a span,.out span{
         font-size: 10em;

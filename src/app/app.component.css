@@ -1,3 +1,8 @@
+
+.cambia{
+    overflow-x: hidden;
+}
+
 img{
     width:90px;
     cursor:pointer;

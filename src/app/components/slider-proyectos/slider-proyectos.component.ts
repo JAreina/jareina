@@ -105,7 +105,7 @@ this.fondo = `url( ${this.url})`;
   
         }     
 
-    }, 900);
+    }, 1300);
   }
 
   pararIntervalo() {
