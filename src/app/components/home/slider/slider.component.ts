@@ -1,10 +1,12 @@
 import { Component, OnInit } from "@angular/core";
 import { datosSlider } from "./datos-slider";
+
 @Component({
   selector: "app-slider",
   templateUrl: "./slider.component.html",
   styleUrls: ["./slider.component.css"]
 })
+
 export class SliderComponent implements OnInit {
   titulo:string="Conocimientos en tecnologías web"
   url: string;
@@ -16,7 +18,6 @@ export class SliderComponent implements OnInit {
   conocimientos: any[];
 
   constructor() {
-    //window.setTimeout(()=> //this.cambiarUrlBackground(),1000);
     this.slider();
   }
 
@@ -44,7 +45,7 @@ export class SliderComponent implements OnInit {
               }
      
      
-    }, 700);
+    }, 1000);
   }
 
   pararIntervalo() {

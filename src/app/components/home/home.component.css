@@ -4,18 +4,41 @@
     overflow-x: hidden;
     box-sizing: content-box;
 }
+
+.foto_codigo {
+    margin: 10 auto;
+    margin-top:10px;
+    background: url('../../../assets/codigo3.png');
+   background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    box-shadow: 6px 5px 6px rgb(15, 30, 32);
+}
+
 .titulo{
     background-color:#0A5C6E;
      color:#FFFFFF;
      font-weight: 400;
-     padding:10px;
+     
+     padding:49px;
      font-family: 'Anton', sans-serif;
+     font-size: .8em;
 }
 
+.bloqueTitular{
+    margin-top:50px;
+    
+    border-radius:2px 2px 2px;
+    border-bottom: 2px solid rgb(8, 9, 15);
+}
+.slider{
+    width: 100%;
+}
 @media (max-width:360px){
      
      .titulo{
-         height: 300px;
+         height: 550px;
      }
 
     }

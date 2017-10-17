@@ -1,19 +1,33 @@
 <div class="container-fluid home animated fadeIn">
-  <div class="row">
-    <div class="col-xs-12 col-md-12 titulo">
-     <h1 class="text-center" *ngFor="let texto of cabecera">{{texto}}</h1>
-     
-    </div>
-     
-     <div class="container-fluid slider">
-    <div class="row">
-        <app-slider></app-slider>
-    </div>
+  <div class="row titulo">
 
-     </div>
+<div class="col-md-6 bloqueTitular">
+    <h1 class="col-md-12 titular text-right" *ngFor="let texto of cabecera">{{texto}}</h1>
+
+</div>
+    
+     
+ 
+
+     
+        <div class="foto_codigo hidden-xs col-md-6 ">
+            
+            
+     
+    </div>
+   
+    
+  </div>
+
+
+
+
+  
+        <app-slider class="slider"></app-slider>
+ 
     
   
-  </div>
+ 
 
   </div>
 

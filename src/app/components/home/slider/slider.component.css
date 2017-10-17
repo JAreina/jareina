@@ -17,8 +17,9 @@ h2{
     margin-bottom: 23px;
 }
 .conocimientos{
+   max-width: 100%;
     height: 400px;
-    background-color: #ffbc49;
+    background-color:transparent;
 }
 .tituloConocimiento{
     padding:10px;
