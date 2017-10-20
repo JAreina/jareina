@@ -9,7 +9,9 @@ import { cabeceraInicio } from "./datosHome";
 export class HomeComponent implements OnInit {
 cabecera :any []= cabeceraInicio;
 
-  constructor() { }
+  constructor() { 
+    window.scrollTo(0,0);
+  }
 
   ngOnInit() {
   }

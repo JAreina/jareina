@@ -12,7 +12,7 @@ export class SliderComponent implements OnInit {
   url: string;
   fondo: string;
   datosSlider: any = datosSlider;
-  totalIds: number = 8;
+  totalIds: number = 9;
   idActual: number;
   finInterval: any;
   conocimientos: any[];

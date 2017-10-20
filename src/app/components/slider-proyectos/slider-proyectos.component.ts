@@ -27,7 +27,7 @@ animacion:String;
 
   constructor(public r:ActivatedRoute) {
     //window.setTimeout(()=> //this.cambiarUrlBackground(),1000);
-  
+  window.scrollTo(0,0);
   }
 
     slider(id:number){

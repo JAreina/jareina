@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProyectosComponent implements OnInit {
 titulo:String="Porfolio de actividades";
-  constructor() { }
+  constructor() {window.scrollTo(0,0); }
 
   ngOnInit() {
   }
