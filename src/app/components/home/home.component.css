@@ -35,11 +35,53 @@
 .slider{
     width: 100%;
 }
-@media (max-width:360px){
+
+.seccionCambio{
+    height: 350px;
+    background-color: #ffbc49;
+
+}
+
+.tituloCambio{
+   padding:40px;
+    font-weight: bolder;
+
+}
+.capacidades{
+    padding:45px;
+}
+@media (max-width:520px){
+    
+    .titulo{
+        height: 450px;
+    }
+    .seccionCambio{
+        height: 850px;
+        background-color: #ffbc49;
+    
+    }
+   }
+@media (max-width:760px){
      
      .titulo{
          height: 550px;
      }
-
+     .seccionCambio{
+        height: 850px;
+        background-color: #ffbc49;
+    
     }
+    }
+    @media (max-width:860px){
+        
+        .titulo{
+            height: 550px;
+        }
+        .seccionCambio{
+            height: 850px;
+            background-color: #ffbc49;
+        
+        }
 
+
+       }

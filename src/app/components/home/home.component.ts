@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { cabeceraInicio } from "./datosHome";
+import { cabeceraInicio,seccionCambio} from "./datosHome";
 
 @Component({
   selector: 'app-home',
@@ -8,6 +8,7 @@ import { cabeceraInicio } from "./datosHome";
 })
 export class HomeComponent implements OnInit {
 cabecera :any []= cabeceraInicio;
+seccionCambio:any=seccionCambio;
 
   constructor() { 
     window.scrollTo(0,0);

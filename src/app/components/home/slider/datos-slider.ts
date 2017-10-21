@@ -1,3 +1,11 @@
+export const datosTituloSlider =[
+  "Porque mis conocimientos en tecnologías web harán realidad tus ideas.", "Conocimientos que están siempre en constante suma."
+]
+
+
+
+
+
 export const datosSlider = [
   {
     id: 0,

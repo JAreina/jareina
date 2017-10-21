@@ -5,6 +5,8 @@
 img{
     width: 185px;
     cursor: pointer;
+    position: relative;
+  
 }
 footer{
     background-color:rgba(3, 7, 6, 0.82);
@@ -26,6 +28,7 @@ footer{
 }
 i,a{
     color:white;
+    margin-top:15px;
 }
 a:hover i{
     color:#B9B9C3;
@@ -40,7 +43,9 @@ ul {
     list-style: none;
 
 }
-
+ul li{
+    margin-top:15px;
+}
 ul li a{
     
     text-decoration: none;
@@ -63,10 +68,11 @@ ul li:hover a{
         .hecho{
             width:8%;
         }
+        
 }
 @media(max-width: 800px) { 
     footer{
-        height: 300px;
+        height: 350px;
     }
   
  
@@ -74,7 +80,7 @@ ul li:hover a{
 
 @media(max-width: 660px) { 
     footer{
-        height: 300px;
+        height: 350px;
     }
   
 

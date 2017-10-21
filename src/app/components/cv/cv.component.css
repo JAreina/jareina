@@ -26,6 +26,10 @@
        font-size: 20em;
        margin-bottom: 90px;
 }
+.in a {
+    position: relative;
+    top:9%;
+}
 .in a span{
     position: relative;
     top:-8%;

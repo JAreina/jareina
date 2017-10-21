@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { datosSlider } from "./datos-slider";
+import { datosSlider,datosTituloSlider } from "./datos-slider";
 
 @Component({
   selector: "app-slider",
@@ -8,7 +8,7 @@ import { datosSlider } from "./datos-slider";
 })
 
 export class SliderComponent implements OnInit {
-  titulo:string="Conocimientos en tecnologías web"
+  titulo:any=datosTituloSlider;
   url: string;
   fondo: string;
   datosSlider: any = datosSlider;

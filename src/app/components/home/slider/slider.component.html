@@ -1,5 +1,10 @@
 <div class="col-xs-12 col-md-12 conocimientos">
-    <h2 class="text-center tituloConocimiento">{{titulo}}</h2>
+    <h2 class="text-center tituloConocimiento"
+      *ngFor="let t of titulo"
+    
+    
+    
+    >{{t}}</h2>
     
       <div class="caja-fondo">
         <section class="fondo animated  fadeIn"[style.backgroundImage]="fondo"
