@@ -5,7 +5,7 @@ export const datosTituloSlider =[
 
 
 
-
+// cambiar totalIds en slider.compoent.ts    al añadir uno nuevo
 export const datosSlider = [
   {
     id: 0,
@@ -82,5 +82,17 @@ export const datosSlider = [
     nombre: "Mysql",
     descripcion: ["Mysql. Creación de bases de datos y Administración"],
     urlLogo: "./assets/img/logo-mysql.png"
+  },
+  {
+    id: 9,
+    nombre: "Shell Scripting",
+    descripcion: ["Programación de línea de comandos bash. Linux."],
+    urlLogo: "./assets/img/logo-bash.png"
+  },
+  {
+    id: 10,
+    nombre: "Node",
+    descripcion: ["Programación Javascript en el lado del servidor"],
+    urlLogo: "./assets/img/node.png"
   }
 ];

@@ -1,0 +1,12 @@
+
+
+compilar produccion
+
+ng build --prod
+
+
+INDEX.JS
+cambiar base="/jareina/"
+
+
+CAMBIAR nombre carpeta "dist" a "docs"

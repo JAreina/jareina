@@ -23,4 +23,12 @@ export const datosProyectos =[
         "nombreProyecto":"Gestión de recibos e impresión",
         "descripcionProyecto":"Aplicacion de escritorio"
        
+    },
+    {
+        "id":"2",
+        "logo":"assets/img/escrito-index.png" ,
+        "url":"https://escrito-jareina.herokuapp.com",
+        "nombreProyecto":"Escrito",
+        "descripcionProyecto":"Libros de notas"
+       
     }]

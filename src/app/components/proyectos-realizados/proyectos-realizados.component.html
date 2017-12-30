@@ -16,7 +16,7 @@
 </div>
 
 <div  *ngIf="datos.length>0" class="proyecto animated fadeIn">
-    <div class="col-md-4 caja " *ngFor="let dato of datos">
+    <div class="col-md-3 caja " *ngFor="let dato of datos">
             <h2 class="cabeceraProyecto text-center">
                     {{dato.nombreProyecto}}</h2>
                     <div class="descripcion ">
@@ -24,9 +24,10 @@
                            
                             </div>
            
-            <a class="btn btn-info col-xs-4 col-xs-offset-4 boton" 
+            <a *ngIf="!dato.url" class="btn btn-info col-xs-4 col-xs-offset-4 boton" 
             [routerLink]="['/slider',dato.id]">VER</a> 
-       
+            <a *ngIf="dato.url" class="btn btn-info col-xs-4 col-xs-offset-4 boton" 
+            [href]="[dato.url]" target="a_blank">VER</a> 
             
              
                     <div class="col-xs-12">
