@@ -6,11 +6,11 @@ h2{
     width: 25px;
     height: 25px;
     border-radius: 50% 50%;
-    background-color: #0A5C6E;
+    font-family: 'Anton', sans-serif;
     font-size: .8em;
     text-align: center;
-  
-    color:#faf5ed;
+    border: 1px solid #0A5C6E;
+    color:#0A5C6E;
     margin-bottom: 5px;
     box-shadow: 1px 1px 1px rgb(130, 175, 185);
     padding: .1%;
