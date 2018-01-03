@@ -11,8 +11,8 @@ export const datosSlider = [
     id: 1,
     nombre: "Angular",
     descripcion: [
-      "Experiencia desde Abril de 2017.",
-      "Creación de componentes, decoradores,data binding, enrutamiento, services, módulos..."
+      "Experiencia desde Abril de 2017. ",
+      "Framework javascript"
     ],
     urlLogo: "./assets/img/logo-angular.png"
   },
@@ -20,8 +20,8 @@ export const datosSlider = [
     id: 2,
     nombre: "Java",
     descripcion: [
-      "Experiencia desde Octubre de 2015. Aprendí a programar con este lenguaje. ",
-      "Aplicaciones de escritorio, así como aplicaciones web"
+      "Experiencia desde Octubre de 2015. ",
+      "Aprendí a programar con este lenguaje."
     ],
     urlLogo: "./assets/img/logo-java.png"
   },
@@ -29,8 +29,8 @@ export const datosSlider = [
     id: 3,
     nombre: "JavaScript",
     descripcion: [
-      "Mi experiencia empieza en Mayo de 2015 en el uso de este lenguaje.",
-      "Imprescindible para dar funcionalidad a una página web."
+      "Mi experiencia empieza en Mayo de 2015.",
+      "Imprescindible para dar funcionalidad a una página web y más."
     ],
     urlLogo: "./assets/img/logo-js.png"
   },
@@ -48,7 +48,7 @@ export const datosSlider = [
     nombre: "Css 3",
     descripcion: [
       "Comencé a estudiar CSS 3 en Marzo de 2015",
-      "Imprescindible para animaciones, para crear un buen diseño."
+      "Para crear un buen diseño."
     ],
     urlLogo: "./assets/img/logo-css3.png"
   },
@@ -56,8 +56,8 @@ export const datosSlider = [
     id: 6,
     nombre: "TypeScript",
     descripcion: [
-      "Mi experiencia empieza en Typescript en Abril de 2017, junto con Angular",
-      "Sabiendo Java es relativamente sencillo adaptarse a este lenguaje"
+      "Mi experiencia empieza en Abril de 2017," ,
+      " junto con Angular"
     ],
     urlLogo: "./assets/img/logo-ts.png"
   },
@@ -65,7 +65,7 @@ export const datosSlider = [
     id: 7,
     nombre: "Sql",
     descripcion: [
-      "Experiencia desde 2015,  en el lenguaje para el acceso a bases de datos relacionales."
+      "Experiencia desde 2015, ","lenguaje para el acceso a bases de datos relacionales."
     ],
     urlLogo: "./assets/img/logo-sql.png"
   },
@@ -73,14 +73,14 @@ export const datosSlider = [
     id: 8,
     nombre: "Git",
     descripcion: [
-      "Manejo de git, software de control de versiones para los proyectos"
+      "Software de control de versiones para los proyectos."
     ],
     urlLogo: "./assets/img/logo-git.png"
   },
   {
     id: 9,
     nombre: "Mysql",
-    descripcion: ["Mysql. Creación de bases de datos y Administración"],
+    descripcion: ["Creación de bases de datos y Administración."],
     urlLogo: "./assets/img/logo-mysql.png"
   },
   {
