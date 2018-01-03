@@ -2,9 +2,18 @@ h2{
     font-size: 1.6em;
     font-weight: bolder;
 }
-.caja-fondo{
-
-
+.numConocimiento{
+    width: 25px;
+    height: 25px;
+    border-radius: 50% 50%;
+    background-color: #0A5C6E;
+    font-size: .8em;
+    text-align: center;
+  
+    color:#faf5ed;
+    margin-bottom: 5px;
+    box-shadow: 1px 1px 1px rgb(130, 175, 185);
+    padding: .1%;
 }
 .fondo{
 margin:0 auto;
@@ -22,7 +31,7 @@ margin:0 auto;
 }
 .conocimientos{
   
-    height: 450px;
+    height: 475px;
     background-color:transparent;
 }
 .tituloConocimiento{
@@ -33,15 +42,22 @@ margin:0 auto;
 }
 @media (max-width:390px){
   
+    .numConocimiento{
+    position: relative;
+    left: -3%;
+ }
    h2{
         font-size: 1.2em;
         margin-bottom: 15px;
         font-weight: bolder;
     }
-    .fondo{
-       
-    }
+ 
     .conocimientos{
         height: 550px;
+    }
+   }
+   @media (max-width:1390px){
+    .numConocimiento{
+           margin-left: 49%;
     }
    }

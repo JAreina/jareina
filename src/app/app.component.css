@@ -1,4 +1,9 @@
-
+html,body{
+    background-color: black;
+}
+.row.laCabecera{
+    box-shadow: 1px 6px 3px rgba(0, 0, 0, 0.822);
+}
 .cambia{
     overflow-x: hidden;
 }
@@ -9,7 +14,7 @@ img{
 }
 
 .header{
-    background-color:rgba(236, 241, 238, 0.99);
+    background-color:rgba(3, 7, 6, 0.82);
     position: fixed;
     top:0;
     width:100%;
@@ -22,5 +27,5 @@ h1,h6{
     font-family: 'Volkhov', serif;
 }
 section{
-    margin-top:47px;
+    margin-top:54px;
 }

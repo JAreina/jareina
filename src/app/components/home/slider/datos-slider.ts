@@ -8,7 +8,7 @@ export const datosTituloSlider =[
 // cambiar totalIds en slider.compoent.ts    al añadir uno nuevo
 export const datosSlider = [
   {
-    id: 0,
+    id: 1,
     nombre: "Angular",
     descripcion: [
       "Experiencia desde Abril de 2017.",
@@ -17,7 +17,7 @@ export const datosSlider = [
     urlLogo: "./assets/img/logo-angular.png"
   },
   {
-    id: 1,
+    id: 2,
     nombre: "Java",
     descripcion: [
       "Experiencia desde Octubre de 2015. Aprendí a programar con este lenguaje. ",
@@ -26,7 +26,7 @@ export const datosSlider = [
     urlLogo: "./assets/img/logo-java.png"
   },
   {
-    id: 2,
+    id: 3,
     nombre: "JavaScript",
     descripcion: [
       "Mi experiencia empieza en Mayo de 2015 en el uso de este lenguaje.",
@@ -35,7 +35,7 @@ export const datosSlider = [
     urlLogo: "./assets/img/logo-js.png"
   },
   {
-    id: 3,
+    id: 4,
     nombre: "Html 5",
     descripcion: [
       "Empecé a aprender HTML5 en Enero de 2015. ",
@@ -44,7 +44,7 @@ export const datosSlider = [
     urlLogo: "./assets/img/logo-html5.png"
   },
   {
-    id: 4,
+    id: 5,
     nombre: "Css 3",
     descripcion: [
       "Comencé a estudiar CSS 3 en Marzo de 2015",
@@ -53,7 +53,7 @@ export const datosSlider = [
     urlLogo: "./assets/img/logo-css3.png"
   },
   {
-    id: 5,
+    id: 6,
     nombre: "TypeScript",
     descripcion: [
       "Mi experiencia empieza en Typescript en Abril de 2017, junto con Angular",
@@ -62,7 +62,7 @@ export const datosSlider = [
     urlLogo: "./assets/img/logo-ts.png"
   },
   {
-    id: 6,
+    id: 7,
     nombre: "Sql",
     descripcion: [
       "Experiencia desde 2015,  en el lenguaje para el acceso a bases de datos relacionales."
@@ -70,7 +70,7 @@ export const datosSlider = [
     urlLogo: "./assets/img/logo-sql.png"
   },
   {
-    id: 7,
+    id: 8,
     nombre: "Git",
     descripcion: [
       "Manejo de git, software de control de versiones para los proyectos"
@@ -78,19 +78,19 @@ export const datosSlider = [
     urlLogo: "./assets/img/logo-git.png"
   },
   {
-    id: 8,
+    id: 9,
     nombre: "Mysql",
     descripcion: ["Mysql. Creación de bases de datos y Administración"],
     urlLogo: "./assets/img/logo-mysql.png"
   },
   {
-    id: 9,
+    id: 10,
     nombre: "Shell Scripting",
     descripcion: ["Programación de línea de comandos bash. Linux."],
     urlLogo: "./assets/img/logo-bash.png"
   },
   {
-    id: 10,
+    id: 11,
     nombre: "Node",
     descripcion: ["Programación Javascript en el lado del servidor"],
     urlLogo: "./assets/img/node.png"

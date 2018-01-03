@@ -8,9 +8,9 @@ font-family: 'Monoton', cursive;*/
 body{
   font-size: 15pt;
   font-family: 'Open Sans Condensed', sans-serif;
-  
-}
+  background-color: rgba(15, 30, 32, 0.096);
 
+}
 .animated {
     animation-duration: 2s;
     animation-fill-mode: both;

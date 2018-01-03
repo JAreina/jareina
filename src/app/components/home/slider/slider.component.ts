@@ -41,7 +41,7 @@ export class SliderComponent implements OnInit {
         this.conocimientos = [];
         this.conocimientos.push(datosSlider[this.idActual]);
       }
-    }, 1000);
+    }, 2700);
   }
 
   pararIntervalo() {
