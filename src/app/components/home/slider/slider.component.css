@@ -13,7 +13,7 @@ h2{
     color:#0A5C6E;
     margin-bottom: 5px;
     box-shadow: 1px 1px 1px rgb(130, 175, 185);
-    padding: .1%;
+  
 }
 .fondo{
 margin:0 auto;
@@ -31,7 +31,7 @@ margin:0 auto;
 }
 .conocimientos{
   
-    height: 475px;
+    height: 480px;
     background-color:transparent;
 }
 .tituloConocimiento{
@@ -53,7 +53,7 @@ margin:0 auto;
     }
  
     .conocimientos{
-        height: 550px;
+        height: 560px;
     }
    }
    @media (max-width:1390px){
