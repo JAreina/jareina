@@ -19,6 +19,10 @@ footer{
     background-color: rgba(17, 14, 14, 0.308);
 }
 
+.contacta{
+    margin-left:-2px;
+}
+
 .centro,.izquierda,.derecha{
     
     box-sizing: content-box;
@@ -104,3 +108,5 @@ ul li:hover a{
         text-align: center;
     }
 }
+
+

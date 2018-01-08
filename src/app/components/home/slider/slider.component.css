@@ -5,15 +5,18 @@ h2{
 .numConocimiento{
     width: 25px;
     height: 25px;
-    border-radius: 50% 50%;
+    
     font-family: 'Anton', sans-serif;
     font-size: .8em;
     text-align: center;
-    border: 1px solid #0A5C6E;
-    color:#0A5C6E;
+    border: 1px solid rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
     margin-bottom: 5px;
-    box-shadow: 1px 1px 1px rgb(130, 175, 185);
+    box-shadow: 1px 1px 1px rgb(4, 6, 7);
   
+}
+.numConocimiento p{
+    margin-top:1px;
 }
 .fondo{
 margin:0 auto;

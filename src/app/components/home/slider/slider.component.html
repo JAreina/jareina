@@ -5,7 +5,9 @@
     
     
     >{{t}}</h2>
-    <div class="numConocimiento " >{{ idActual? idActual+1: "1" }}</div>     
+    <div class="numConocimiento " ><p>
+        {{ idActual? idActual+1: "1" }}
+    </p></div>     
       <div class="caja-fondo">
         <section class="fondo animated  fadeIn"[style.backgroundImage]="fondo"
         (mouseenter)="pararIntervalo()"

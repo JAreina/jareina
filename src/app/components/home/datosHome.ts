@@ -1,4 +1,6 @@
-export const cabeceraInicio = ["YA HAS ENCONTRADO","AL DESARROLLADOR WEB","QUE NECESITA TU PROYECTO"];
+export const cabeceraInicio = ["Ya has encontrado",
+"al desarrollador web","Angular Javascript NodeJS",
+"que necesita tu proyecto"];
 
 
 export const seccionCambio =

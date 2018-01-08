@@ -15,6 +15,7 @@ import { GoogleAnalyticsService } from "./service/google-analytics.service";
 import { SliderComponent } from "./components/home/slider/slider.component";
 import { SliderProyectosComponent } from './components/slider-proyectos/slider-proyectos.component';
 import { ProyectosRealizadosComponent } from './components/proyectos-realizados/proyectos-realizados.component';
+import { CorreoComponent } from './components/correo/correo.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { ProyectosRealizadosComponent } from './components/proyectos-realizados/
     ProyectoComponent,
     SliderComponent,
     SliderProyectosComponent,
-    ProyectosRealizadosComponent
+    ProyectosRealizadosComponent,
+    CorreoComponent
     
   ],
   imports: [
