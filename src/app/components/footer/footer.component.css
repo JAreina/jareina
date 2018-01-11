@@ -19,8 +19,8 @@ footer{
     background-color: rgba(17, 14, 14, 0.308);
 }
 
-.contacta{
-    margin-left:-2px;
+.correo{
+    margin-left:80%;
 }
 
 .centro,.izquierda,.derecha{
@@ -84,7 +84,9 @@ ul li:hover a{
         .hecho{
             width:8%;
         }
-        
+        .correo{
+            margin-left:4%;
+        }
 }
 @media(max-width: 800px) { 
     footer{
